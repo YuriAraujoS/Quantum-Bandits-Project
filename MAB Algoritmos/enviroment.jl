@@ -30,7 +30,7 @@ end
 function run_test(bandit, n, policy_fn)
     #criando array de estimativas e numero de passos
     #o primeiro número representa as recompensas estimadas e o segundo o número de passos
-    estimates = [[0.0,0] for _ in bandit]
+    estimates = [[0.0, 0] for _ in bandit]
 
     #criando o vetor de recompensas para plotar gráficos depois
     rewards = zeros(Float64, n)
